@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Fuduru Popup</title>
+    <!--Scripts -->
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.js"></script>
+    <script src="custom.js"></script>
+	<!--Stylesheets -->
+	<link rel="stylesheet" href="bower_components/normalize-css/normalize.css">
+	<link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.css">
+	<link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+	
+	<div class="container wrapper">
+		<!-- =========Section: Show Tips?=========== -->
+		<div class="newuser">
+<button type="button" class="btn btn-primary tips" data-toggle="button" aria-pressed="false" autocomplete="off">
+Show Tips
+</button>
+
+		</div>
+		<!-- =========Section: Top Container=========== -->
+		<div class="top-container">
+			<input type="email" class="form-control input-lg tipspopover" placeholder="Say something...To tag people to this post, just type their @username" data-toggle="popover" data-content="Easily post comments, pictures and videos!" data-placement="bottom">
+			<div class="features">
+				<button><img src="img/photo.gif" alt="Photo" class="img-rounded"></button>
+				<button class="closer"><img src="img/video.gif" alt="Video" class="img-rounded"></button>
+			</div>
+		</div>
+		<!-- =========Section: Second Container=========== -->
+		<div class="second-container">
+			<img src="img/person.png" alt="" class="person">
+			<div class="postinfo">
+				<h4><b>Name Surname</b></h4>
+				<h6>Today at 11:56</h6>
+				<span>This is a description.  This is a description.  This !s a description.</span>
+				<img src="img/ramen.jpg" alt="" class="ramen">
+			</div>
+          
+          <div class="tipspopover" data-toggle="popover" data-content="By recommending content, you re-post it to your home feed for your followers to see." data-placement="bottom"></div>
+
+		</div>
+
+
+	</div><!-- =========End: Containing Wrapper=========== -->
+
+
+</body>
+</html>

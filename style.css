@@ -1,0 +1,89 @@
+.wrapper{
+	height:1000px;
+	width:700px;
+
+background:#E9EAED;
+float:left;
+padding:10px 10px 0px 10px;
+
+}
+
+.top-container{
+padding-top:10px;
+padding-right:10px;
+padding-left:10px;
+height:170px;
+width:100%;
+background:white;
+border-radius:3px;
+border:1px solid #B3B6B5;
+position:relative;
+
+}
+
+.input-lg{
+height:60px;
+border-radius:3px;
+border:gray 1px solid;
+}
+
+/* --------------------------------------------Features */
+.features{
+	position:absolute;
+	bottom:0;
+}
+.features > button{
+	text-align:center;
+	background:white;
+	border:none;
+	overflow:hidden;
+}
+.features >button>img{
+	
+}
+.features> button.closer{
+
+}
+img:hover{
+background:#EAE6E6;
+transition: 0.3s ease;
+}
+
+/* --------------------------------------------Second Container */
+.second-container{
+	width:100%;
+	background:white;
+
+	margin-top:20px;
+	border-radius:3px;
+border:1px solid #B3B6B5;
+
+}
+
+.postinfo{
+	display:inline;
+}
+img.person{
+	float:left;
+	margin:10px;
+}
+.postinfo >h4{
+	margin-bottom:0px;
+}
+.postinfo>h6{
+	margin-top:0px;
+}
+
+img.ramen{
+	width:100%;
+}
+
+/* --------------------------------------------New User */
+.newuser{
+	height:30px;
+}
+
+/* --------------------------------------------Show Tips */
+.newuser{
+	margin-bottom:10px;
+}
